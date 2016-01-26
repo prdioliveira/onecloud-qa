@@ -3,4 +3,3 @@ djangorestframework==3.3.2
 django-jenkins
 pep8
 pyflakes
-pylint
