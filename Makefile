@@ -9,4 +9,4 @@ setup:
 	python manage.py loaddata onecloud/fixtures/users.json
 
 dev:
-	python manage.py jenkins -v 3 --pep8-exclude="*migrations*" --project-apps-tests
+	python manage.py jenkins -v 3 --pep8-exclude="*migrations*"
