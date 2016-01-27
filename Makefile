@@ -9,4 +9,4 @@ setup:
 	python manage.py loaddata onecloud/fixtures/users.json
 
 dev:
-	python manage.py jenkins --pep8-exclude="*migrations*" --pep8-max-line-length=160 --pep8-ignore=E128 --pep8-ignore=E303 --pep8-ignore=E503 --pep8-ignore=E731
+	python manage.py jenkins --pep8-exclude="*migrations*" --pep8-max-line-length=160 --pep8-ignore=E128
