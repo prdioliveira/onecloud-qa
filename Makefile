@@ -9,4 +9,4 @@ setup:
 	python manage.py loaddata onecloud/fixtures/users.json
 
 dev:
-	python manage.py jenkins ----pyflakes-exclude-dir="*/site-packages/*"
+	python manage.py jenkins --pyflakes-exclude-dir="*/site-packages/*"
