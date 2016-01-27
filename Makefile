@@ -9,4 +9,4 @@ setup:
 	python manage.py loaddata onecloud/fixtures/users.json
 
 dev:
-	python manage.py jenkins -v 3 --pep8-exclude="*migrations*","*site-packages*" --enable-coverage
+	python manage.py jenkins -v 3 --pep8-exclude="*migrations*","*site-packages*" --pyflakes-exclude-dir=env/local/lib/python2.7/site-packages/ --enable-coverage
